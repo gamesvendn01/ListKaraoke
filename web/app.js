@@ -6,8 +6,10 @@
 'use strict';
 
 // ─── Config ───────────────────────────────────────────────────────────────────
-// songs.json được fetch từ cùng thư mục (GitHub Pages root)
-const SONGS_URL = './songs.json';
+// songs.json nằm ở root repo, web files nằm trong /web/ → dùng ../songs.json
+// Khi preview local: file:///path/ListKaraoke/web/index.html → ../songs.json = ListKaraoke/songs.json ✅
+// Khi GitHub Pages:  https://user.github.io/ListKaraoke/web/ → ../songs.json = /ListKaraoke/songs.json ✅
+const SONGS_URL = '../songs.json';
 
 // ─── State ────────────────────────────────────────────────────────────────────
 let allSongs = [];
