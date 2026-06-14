@@ -8,7 +8,11 @@
       "language": "Việt",
       "difficulty": 3,
       "rating": 5,
-      "tags": ["tình yêu", "trẻ trung", "vui"],
+      "tags": [
+        "tình yêu",
+        "trẻ trung",
+        "vui"
+      ],
       "note": "Bài hát dễ thuộc, phù hợp hát karaoke nhóm",
       "lyrics": "Anh biết anh chẳng xứng với em\nNhưng anh vẫn mong em hiểu\nRằng nơi này có anh\nLuôn luôn ở đây bên em\n\nEm ơi dù cho mai này\nTình ta có đổi thay\nAnh vẫn mãi yêu em\nMột tình yêu không phai\n\nNơi này có anh, có anh đây\nĐể che chở cho em mỗi ngày\nNơi này có anh, có anh đây\nBên cạnh em dù gió mưa bay...",
       "mp3_local_path": "",
@@ -27,7 +31,11 @@
       "language": "Việt",
       "difficulty": 4,
       "rating": 5,
-      "tags": ["buồn", "chia tay", "slow"],
+      "tags": [
+        "buồn",
+        "chia tay",
+        "slow"
+      ],
       "note": "Cần luyện giọng cao đoạn điệp khúc",
       "lyrics": "Em đã biết chưa, khi ta yêu nhau\nThì hoa đã nở, hoa trắng tinh khôi\nEm đã biết chưa, khi ta xa nhau\nThì hoa đã héo, hoa không còn màu\n\nChiều nay mưa rơi, anh ngồi một mình\nNhìn những cánh hoa, rơi trên lối đi\nChiều nay mưa rơi, anh nhớ đến em\nNhớ những ngày xưa bên nhau hạnh phúc\n\nHoa nở không màu, tình yêu không mãi\nNhư cơn mưa chiều, qua đi mà thôi\nHoa nở không màu, như lời anh nói\nMãi theo thời gian, chẳng bao giờ phai...",
       "mp3_local_path": "",
@@ -46,7 +54,11 @@
       "language": "English",
       "difficulty": 3,
       "rating": 4,
-      "tags": ["English", "dance", "fun"],
+      "tags": [
+        "English",
+        "dance",
+        "fun"
+      ],
       "note": "Nhịp điệu dễ hát, phù hợp tiệc",
       "lyrics": "The club isn't the best place to find a lover\nSo the bar is where I go\nMe and my friends at the table doing shots\nDrinking fast and then we talk slow\n\nCome over and start up a conversation with just me\nAnd trust me I'll give it a chance now\nTake my hand, stop, put Van The Man on the jukebox\nAnd then we start to dance and now I'm singing like\n\nGirl, you know I want your love\nYour love was handmade for somebody like me\nCome on now, follow my lead\nI may be crazy, don't mind me\nSay, boy, let's not talk too much\nGrab on my waist and put that body on me\nCome on now, follow my lead\nCome, come on now, follow my lead...",
       "mp3_local_path": "",
@@ -56,7 +68,28 @@
       "youtube_url": "https://www.youtube.com/watch?v=JGwWNGJdvx8",
       "created_at": "2026-06-14T19:10:00",
       "updated_at": "2026-06-14T19:10:00"
+    },
+    {
+      "id": 4,
+      "title": "Như cánh vạc bay",
+      "artist": "Trịnh công sơn",
+      "genre": "Nhạc Trịnh",
+      "language": "Viet",
+      "difficulty": 3,
+      "rating": 0,
+      "tags": [
+        "Buồn",
+        "Nhạc Trịnh",
+        "Tình yêu"
+      ],
+      "note": "",
+      "lyrics": "Nắng có hồng bằng đôi môi em?\nMưa có buồn bằng đôi mắt em?\nTóc em từng sợi nhỏ\nRớt xuống đời làm sóng lênh đênh\nGió sẽ mừng vì tóc em bay\nCho mây hờn ngủ quên trên vai\nVai em gầy guộc nhỏ\nNhư cánh vạc về chốn xa xôi\nNắng có còn hờn ghen môi em?\nMưa có còn buồn trong mắt trong?\nTừ lúc đưa em về\nLà biết xa nghìn trùng\nSuối đón từng bàn chân em qua\nLá hát từ bàn tay thơm tho\nLá khô vì đợi chờ\nCũng như đời người mãi âm u\nNơi em về ngày vui không em?\nNơi em về trời xanh không em?\nTa nghe nghìn giọt lệ\nRớt xuống thành hồ nước long lanh\nNắng có còn hờn ghen môi em?\nMưa có còn buồn trong mắt trong?\nTừ lúc đưa em về\nLà biết xa nghìn trùng\nSuối đón từng bàn chân em qua\nLá hát từ bàn tay thơm tho\nLá khô vì đợi chờ\nCũng như đời người mãi âm u\nNơi em về ngày vui không em?\nNơi em về trời xanh không em?\nTa nghe nghìn giọt lệ\nRớt xuống thành hồ nước long lanh\nTa nghe nghìn giọt lệ\nRớt xuống thành hồ nước long lanh",
+      "mp3_gdrive_id": "",
+      "mp4_gdrive_id": "",
+      "youtube_url": "",
+      "created_at": "2026-06-14T21:31:33",
+      "updated_at": "2026-06-14T21:31:33"
     }
   ],
-  "last_updated": "2026-06-14T19:10:00"
+  "last_updated": "2026-06-14T21:31:33"
 }
