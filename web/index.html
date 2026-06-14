@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <meta name="theme-color" content="#0f0f1a">
+  <meta name="description" content="Danh sách bài hát Karaoke cá nhân — tìm kiếm nhanh, xem lyrics, phát nhạc">
+  <title>🎤 ListKaraoke</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="header-left">
+      <span class="logo">🎤</span>
+      <div>
+        <h1 class="app-title">ListKaraoke</h1>
+        <p class="app-sub">Danh sách bài hát cá nhân</p>
+      </div>
+    </div>
+    <div class="header-right">
+      <button class="btn-icon" id="btn-theme" title="Chuyển theme">🌙</button>
+      <span class="badge" id="badge-count">0 bài</span>
+    </div>
+  </header>
+
+  <!-- Search & Filter bar -->
+  <div class="search-bar">
+    <div class="search-wrap">
+      <span class="search-icon">🔍</span>
+      <input type="search" id="search-input" class="search-input"
+             placeholder="Tìm bài hát, tác giả, lời bài hát..." autocomplete="off">
+      <button class="btn-clear" id="btn-clear" title="Xóa">✕</button>
+    </div>
+    <div class="filter-row">
+      <select id="filter-genre" class="filter-select">
+        <option value="">🎼 Tất cả thể loại</option>
+      </select>
+      <select id="filter-lang" class="filter-select">
+        <option value="">🌐 Tất cả ngôn ngữ</option>
+      </select>
+      <select id="sort-by" class="filter-select">
+        <option value="title">A→Z Tên</option>
+        <option value="artist">A→Z Tác giả</option>
+        <option value="rating">⭐ Đánh giá</option>
+        <option value="created_at">🕐 Mới nhất</option>
+      </select>
+    </div>
+  </div>
+
+  <!-- Main content -->
+  <main class="main-content">
+    <div id="loading" class="loading-state">
+      <div class="spinner"></div>
+      <p>Đang tải danh sách bài hát...</p>
+    </div>
+    <div id="empty-state" class="empty-state" hidden>
+      <span class="empty-icon">🎵</span>
+      <p>Không tìm thấy bài hát phù hợp</p>
+      <small>Thử từ khóa khác hoặc xóa bộ lọc</small>
+    </div>
+    <div id="song-grid" class="song-grid" hidden></div>
+  </main>
+
+  <!-- Modal lyrics + media -->
+  <div id="modal-overlay" class="modal-overlay" hidden>
+    <div class="modal" id="modal-content">
+      <button class="modal-close" id="modal-close">✕</button>
+      <div class="modal-header">
+        <h2 id="modal-title" class="modal-title"></h2>
+        <p id="modal-artist" class="modal-artist"></p>
+        <div id="modal-meta" class="modal-meta"></div>
+        <div id="modal-tags" class="modal-tags"></div>
+      </div>
+
+      <!-- Tabs -->
+      <div class="tab-bar">
+        <button class="tab-btn active" data-tab="lyrics">📝 Lyrics</button>
+        <button class="tab-btn" data-tab="media">🎵 Media</button>
+        <button class="tab-btn" data-tab="info">ℹ️ Thông tin</button>
+      </div>
+
+      <!-- Tab: Lyrics -->
+      <div id="tab-lyrics" class="tab-pane active">
+        <div id="modal-lyrics" class="lyrics-content"></div>
+      </div>
+
+      <!-- Tab: Media -->
+      <div id="tab-media" class="tab-pane" hidden>
+        <div id="media-container" class="media-container"></div>
+      </div>
+
+      <!-- Tab: Info -->
+      <div id="tab-info" class="tab-pane" hidden>
+        <div id="info-container" class="info-container"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast notification -->
+  <div id="toast" class="toast" hidden></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
