@@ -89,7 +89,28 @@
       "youtube_url": "",
       "created_at": "2026-06-14T21:31:33",
       "updated_at": "2026-06-14T21:31:33"
+    },
+    {
+      "id": 5,
+      "title": "Đôi Mắt",
+      "artist": "Wanbi Tuấn Anh",
+      "genre": "Nhạc Trẻ",
+      "language": "Viet",
+      "difficulty": 3,
+      "rating": 0,
+      "tags": [
+        "Wanbi Tuấn Anh",
+        "Nhạc Trẻ",
+        "Tình Yêu"
+      ],
+      "note": "",
+      "lyrics": "Từng ngày trôi qua mau\nNụ cười trao nhau lại thêm lo âu\nRồi ngày vui không bao lâu\nVà nhiều buồn đau chôn dấu.\n\nĐôi mắt dịu dàng nồng ấm\nGiờ này đã xa xăm\nAnh vẫn nhẹ nhàng nhìn ngắm\nMà cứ ngỡ trăm năm.\n\nRồi ngày vui qua đi\nĐường dài chia ly lệ vương trên mi\nGiờ thì em đâu vui chi\nGiờ thì mình anh suy nghĩ.\n\nAnh biết rồi ngày lại đến\nNgày lặng lẽ đôi bên\nAnh biết tình mình là hết\nVà anh sẽ không quên.\n\n[ĐK:]\nGiờ em nơi phương xa nhiều bỡ ngỡ\nGiờ chỉ còn lại mình bơ vơ\nBao nhiêu mộng mơ\nGiờ tan biến đâu ai ngờ.\n\nTình yêu trong anh cho em mãi mãi\nNgày trở về vội bên ai\nYêu thương còn đây\nMà đôi mắt kia hao gầy.",
+      "mp3_gdrive_id": "",
+      "mp4_gdrive_id": "",
+      "youtube_url": "",
+      "created_at": "2026-06-14T21:35:56",
+      "updated_at": "2026-06-14T21:35:56"
     }
   ],
-  "last_updated": "2026-06-14T21:31:33"
+  "last_updated": "2026-06-14T21:35:56"
 }
