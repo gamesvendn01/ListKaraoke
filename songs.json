@@ -1,0 +1,25 @@
+{
+  "songs": [
+    {
+      "id": 1,
+      "title": "Như Cánh Vạc Bay",
+      "artist": "Trịnh Công Sơn",
+      "genre": "Nhạc Vàng",
+      "language": "Việt",
+      "difficulty": 3,
+      "rating": 0,
+      "tags": [
+        "Nhạc Vàng",
+        "Nhạc Trịnh"
+      ],
+      "note": "Không cần đưa mp3 hoặc Mp4",
+      "lyrics": "Nắng có hồng bằng đôi môi em\nMưa có buồn bằng đôi mắt em\nTóc em từng sợi nhỏ\nRớt xuống đời làm sóng lênh đênh.\n\nGió sẽ mừng vì tóc em bay\nCho mây hờn ngủ quên trên vai\nVai em gầy guộc nhỏ\nNhư cánh vạc về chốn xa xôi.\n\n[ĐK:]\nNắng có còn hờn ghen môi em\nMưa có còn buồn trong mắt em\nTừ lúc đưa em về\nLà biết xa nghìn trùng.\n\n2. Suối đón từng bàn chân em qua\nLá hát từ bàn tay thơm tho\nLá khô vì đợi chờ\nCũng như đời người mãi âm u.\n\nNơi em về ngày vui không em\nNơi em về trời xanh không em\nTa nghe từng giọt lệ\nRớt xuống thành hồ nước long lanh.",
+      "mp3_gdrive_id": "",
+      "mp4_gdrive_id": "",
+      "youtube_url": "",
+      "created_at": "2026-06-14T20:10:00",
+      "updated_at": "2026-06-14T20:10:00"
+    }
+  ],
+  "last_updated": "2026-06-14T20:10:00"
+}
